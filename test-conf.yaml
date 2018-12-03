@@ -1,0 +1,14 @@
+# Sample yaml config file
+inputs:
+  input_1:
+    file:
+      path: parquet/input_1.parquet
+  input_2:
+    file:
+      path: parquet/input_2.parquet
+        
+# Set Log Level : ALL, DEBUG, ERROR, FATAL, INFO, OFF, TRACE, WARN
+logLevel: WARN
+
+# Set Application Name to have app name prefix in spark instrumentation counters
+appName: appName
