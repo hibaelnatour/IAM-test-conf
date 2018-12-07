@@ -6,7 +6,9 @@ inputs:
   input_2:
     file:
       path: parquet/input_2.parquet
-     
+  input_22:
+    file:
+      path: parquet/input_2.parquet        
 # Set Log Level : ALL, DEBUG, ERROR, FATAL, INFO, OFF, TRACE, WARN
 logLevel: WARN
 
