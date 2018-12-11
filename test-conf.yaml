@@ -1,14 +1,22 @@
-# Sample yaml config file
-inputs:
-  input_1:
-    file:
-      path: parquet/input_1.parquet
-  input_767T:
-    file:
-      path: parquet/input_2.parquet
-    
-# Set Log Level : ALL, DEBUG, ERROR, FATAL, INFO, OFF, TRACE, WARN
-logLevel: WARN
-
-# Set Application Name to have app name prefix in spark instrumentation counters
-appName: appName
+{
+    "glossary": {
+        "title": "example glossary",
+		"GlossDiv": {
+            "title": "S",
+			"GlossList": {
+                "GlossEntry": {
+                    "ID": "SGML",
+					"SortAs": "SGML",
+					"GlossTerm": "Standard Generalized Markup Language",
+					"Acronym": "SGML",
+					"Abbrev": "ISO 8879:1986",
+					"GlossDef": {
+                        "para": "A meta-markup language, used to create markup languages such as DocBook.",
+						"GlossSeeAlso": ["GML", "XML"]
+                    },
+					"GlossSee": "markup"
+                }
+            }
+        }
+    }
+}
